@@ -133,8 +133,9 @@ to clear the organization's governance as well as stop the threat.</p>
 <div class="pf-stage">
 <span class="num">05</span>
 <h3>Eradication and recovery</h3>
-<p>Host, disk, memory, and network forensics plus malware triage, establishing
-root cause and confirming full scope before anything is called clean.</p>
+<p>Host, disk, memory, and network forensics across Linux and Windows hosts, plus
+malware triage, establishing root cause and confirming full scope before anything
+is called clean.</p>
 <div class="pf-chips">
  <span class="pf-chip">Volatility</span><span class="pf-chip">MemProcFS</span>
  <span class="pf-chip">KAPE</span><span class="pf-chip">Axiom</span>

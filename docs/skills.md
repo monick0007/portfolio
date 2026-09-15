@@ -15,6 +15,7 @@ How these show up in an actual investigation is on the
     <button data-filter="all" aria-pressed="true">All</button>
     <button data-filter="forensics" aria-pressed="false">Forensics</button>
     <button data-filter="detect" aria-pressed="false">Detect</button>
+    <button data-filter="systems" aria-pressed="false">Systems</button>
     <button data-filter="cloud" aria-pressed="false">Cloud</button>
     <button data-filter="intel" aria-pressed="false">Intel</button>
     <button data-filter="build" aria-pressed="false">Build</button>
@@ -37,6 +38,15 @@ How these show up in an actual investigation is on the
       <span class="pf-chip">CrowdStrike EDR</span><span class="pf-chip">SecOps SIEM</span>
       <span class="pf-chip">Splunk</span><span class="pf-chip">Elastic</span>
       <span class="pf-chip">Wiz</span><span class="pf-chip">IDS/IPS</span>
+    </div>
+  </div>
+
+  <div data-group="systems">
+    <h3>Systems</h3>
+    <div class="pf-chips">
+      <span class="pf-chip">Linux</span><span class="pf-chip">Windows</span>
+      <span class="pf-chip">Bash</span><span class="pf-chip">PowerShell</span>
+      <span class="pf-chip">syslog / journald</span><span class="pf-chip">Windows Event Logs</span>
     </div>
   </div>
 
