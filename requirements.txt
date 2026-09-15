@@ -1,0 +1,5 @@
+# Pinned to the versions this site was built and verified against.
+# MkDocs 2.0 is a breaking release with no migration path, so an unpinned
+# install would silently change or break the build.
+mkdocs==1.6.1
+mkdocs-material==9.7.7

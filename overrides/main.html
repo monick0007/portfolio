@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+  <!-- GitHub Pages cannot set response headers, so this is a meta CSP.
+       frame-ancestors / report-to / sandbox are ignored in meta by spec; the
+       site holds no authenticated state, so framing is not a real risk here.
+       Inline script/style are Material's own palette and tab bootstrap. -->
+  <meta http-equiv="Content-Security-Policy" content="
+    default-src 'self';
+    script-src 'self' 'unsafe-inline';
+    style-src 'self' 'unsafe-inline';
+    img-src 'self' data:;
+    font-src 'self';
+    connect-src 'self';
+    object-src 'none';
+    base-uri 'self';
+    form-action 'none';
+    frame-src 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+{% endblock %}

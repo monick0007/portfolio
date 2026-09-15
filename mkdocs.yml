@@ -1,0 +1,85 @@
+site_name: Monik Aghariya
+site_description: Incident responder scoping and investigating high-severity incidents across cloud and on-premises environments
+site_url: https://monick0007.github.io/portfolio/
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  icon:
+    logo: material/shield-search
+  palette:
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue grey
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue grey
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+  font: false
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.instant
+    - navigation.tracking
+    - content.code.copy
+    - content.tooltips
+    - toc.follow
+    - navigation.footer
+
+nav:
+  - Home: index.md
+  - Experience: experience.md
+  - Skills: skills.md
+  - Projects: projects/index.md
+  - Contact: contact.md
+
+plugins: []
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - def_list
+  - footnotes
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - toc:
+      permalink: true
+
+extra_css:
+  - stylesheets/fonts.css
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/portfolio.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/in/monik-aghariya
+    - icon: fontawesome/brands/github
+      link: https://github.com/monick0007
+    - icon: fontawesome/solid/envelope
+      link: mailto:monikaghariya.1998@gmail.com
+  generator: false
+
+copyright: Monik Aghariya — Ottawa, ON

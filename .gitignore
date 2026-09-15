@@ -1,0 +1,15 @@
+# build output: published to gh-pages by the workflow, never committed to main
+site/
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# editors / os
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
